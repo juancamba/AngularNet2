@@ -1,0 +1,56 @@
+https://www.youtube.com/watch?v=LeJMrJx12as&t=200s
+https://github.com/Deyson19/app-estudiantes-frontend-angular.git
+
+ng new client --routing --skip-tests --style=css
+do you want server side ? no
+
+ir a material angular
+
+dentro del raiz del cliente, instalar: y darle todo y
+ng add @angular/material
+
+
+
+npm i ngx-toastr
+
+
+
+cd src/app/
+
+
+parte 2 https://www.youtube.com/watch?v=oFh8X44g9L0
+
+mkdir services components pages interfaces
+
+
+te vas al raiz y crea el service
+ng g s services/estudiantes
+
+
+parte 3
+https://www.youtube.com/watch?v=3ZLv80IC6Ak
+
+
+configurar toastr
+
+crear componentes reusables y rutas
+
+ng g c components/navbar
+ng g c components/spinner
+ng g c components/estudiante-card
+ng g c pages/home
+
+ng g c pages/listado --skip-selector
+ng g c pages/upsert --skip-selector
+ng g c pages/detalle --skip-selector
+
+
+
+agregar rutas
+
+Borrar app-component y agregar <router-outlet/>
+En el home component agrgar <app-navbar/>
+
+
+
+
